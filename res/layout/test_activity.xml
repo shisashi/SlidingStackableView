@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.shisashi.android.lib.view.SlidingStackableView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ssv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#222222"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/sym_def_app_icon" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</net.shisashi.android.lib.view.SlidingStackableView>
